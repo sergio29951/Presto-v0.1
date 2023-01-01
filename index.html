@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Presto.it</title>
+    <link rel="shortcut icon" href="./media/zucca faviocon.png" type="image/x-icon">
+    
+    <!-- SWIPER CDN -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CDN FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- GOOGLE FONTS CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Eater&display=swap" rel="stylesheet">
+
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- CSS CUSTOM -->
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+        <!-- NAVBAR -->
+
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container-fluid">
+
+            <a href="./index.html">  
+              <i class="fa-solid fa-spider text-orange icon-navbar"></i>
+            </a>
+            
+             
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                <i class="fa-regular fa-hand-point-up text-white"id="navIcon" ></i> 
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-3">
+                  
+                    <li class="nav-item px-3">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                 
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="./annunci.html">Annunci</a>
+                  </li>
+                 
+                  <li class="nav-item px-3">
+                    <a class="nav-link" href="./Chi-siamo.html">Chi Siamo</a>
+                  </li>
+
+                </ul>
+
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Cerca Annunci" aria-label="Search">
+                  <button class="btn btn-navbar text-white " type="submit">Cerca</button>
+                </form>
+
+              </div>
+            </div>
+          </nav>
+
+          <!-- HEADER -->
+          <header class="container-fluid">
+            <div class="row vh-100 align-items-center flex-column justify-content-center">
+
+                <div class="col-12 d-flex justify-content-center">
+                    <h1 class="display-1 text-orange ">Presto <span class="text-green">.it</span></h1>
+                    
+                </div>
+
+                <div class="col-12 d-flex justify-content-center h-75">
+                    <p class="display-6 text-white mb-5">Sconti da <span class="display-5 text-green">PAURA</span></p>
+                </div>
+
+            </div>
+        </header>
+
+        <!-- SEZIONE ANIMATE -->
+
+        <section id="animate" class="container my-5">
+
+          <div class="row">
+      
+      
+              <div class="col-12 col-md-6 my-5">
+
+                  <img src="./media/lllove.svg" data-aos="fade-right" data-aos-easing="linear"
+                  data-aos-duration="1500"alt="zombie" class="zombie">
+              </div>
+      
+              <div class="col-12 col-md-6 my-5">
+              
+      
+                  <h2 id="h2Test" class="text-center text-orange"> Un po' di numeri</h2>
+      
+                  <p class="lead text-center text-green"> <span id="first-span" class="incrementNumbers d-block"> 0 </span>  Clienti Soddisfatti </p>
+      
+                  <p class="lead text-center text-green"> <span  id="second-span" class="incrementNumbers d-block"> 0 </span>  Prodotti Venduti </p>
+      
+                  <p class="lead text-center text-green"> <span  id="third-span" class="incrementNumbers d-block"> 0 </span>  Recensioni </p>
+      
+      
+              </div>
+      
+      
+      
+          </div>
+      
+        </section>
+
+        <!-- Swiper -->
+
+        <section id="commenti" class="container">
+
+          <div class="row justify-content-center">
+
+            <div class="col-12">
+              <p class="h2 text-green text-center">Dicono di Noi</p>
+            </div>
+
+            <div class="col-12 col-md-8">
+
+              <!-- Slider main container -->
+               <div class="swiper">
+
+                <!-- Additional required wrapper -->
+
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+        
+        <!-- MOUSE ENTER -->
+
+        <section class="container-fluid my-5 py-5 bg-orange">
+
+          <div class="container">
+
+            <div class="row justify-content-evenly">
+
+              <div class="col-12 col-md-3 col-custom">
+
+                <i class="fa-solid fa-hand-fist fa-3x mb-4 text-violet"></i>
+
+                <h3>Gaming</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestiae, assumenda illum exercitationem iure facilis nobis modi error totam. Ipsam nesciunt necessitatibus odit corporis libero quo a rem optio accusamus?</p>
+
+              </div>
+
+              <div class="col-12 col-md-3 col-custom my-3">
+
+                <i class="fa-solid fa-laptop fa-3x mb-4 text-violet"></i>
+
+                <h3>Computer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum optio odio magnam aspernatur enim architecto, reiciendis nobis sunt tempora non iusto modi? Optio dolorem rerum animi aperiam quibusdam iure quas.</p>
+
+              </div>
+
+              <div class="col-12 col-md-3 col-custom ">
+
+                <i class="fa-solid fa-headset fa-3x mb-4 text-violet"></i>
+
+                <h3>Headset</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil laborum tenetur, illum enim quas rem assumenda velit consequuntur corporis ducimus at veritatis ratione provident cupiditate qui perspiciatis ab! Corrupti, reiciendis.</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <!-- ULTIMI ANNUNCI -->
+
+        <section id="lastfour" class="container">
+
+          <div id="Wrapper" class="row my-5"></div>
+
+        </section>
+
+        <!-- FOOTER -->
+
+        <footer class="container-fluid mt-5 py-5 bg-green">
+
+          <div class="container">
+
+            <div class="row vh-50">
+
+              <div class="col-12 col-md-4 text-black text-center">
+
+                <p class="h2 text-violet mt-3">About Presto.it</p>
+
+                <p class="my-3">P.Iva: 5638563</p>
+                <p class="my-3">Indirizzo: via ciacalone N4</p>
+                <p class="my-3">Tel: +39 56633454</p>
+                <p class="my-3">E-mail: miamail@miamail.it</p>
+
+                <i class="fa-brands fa-instagram fa-2x"></i>
+                <i class="fa-brands fa-facebook px-3 fa-2x"></i>
+                <i class="fa-brands fa-linkedin fa-2x"></i>
+              </div>
+
+              <div class="col-12 col-md-4 text-center ">
+
+                <p class="h2 pb-3 text-violet mt-3">Quick Menu</p>
+
+                <a class="footer-link" href="#animate"> <p> Un po di numeri </p></a>
+
+                <a class="footer-link" href="#commenti"> <p> Dicono di noi </p></a>
+
+                
+
+                
+
+              </div>
+
+              <div class="col-12 col-md-4 text-center">
+
+                <p class="h2 pb-3 text-violet mt-3">Collaborazioni</p>
+
+                <p>Amazon</p>
+                <p>Netflix</p>
+                <p>Apple</p>
+
+              </div>
+            </div>
+          </div>
+        </footer>
+
+
+
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- INIZIALIZZAZIONE AOS -->
+    <script>
+
+      AOS.init();
+
+    </script>
+
+    <!-- JS BOOSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+    <!-- INIZIALIZZAZIONE SWIPER -->
+
+    <script>
+
+      let advices = [
+
+      { name : 'Giovanni', quote : `ottimo!!`, vote : 4}, 
+
+      { name : 'Matteo', quote : `perfetto!!`, vote : 5}, 
+
+      { name : 'Luca', quote : `Non va bene!!`, vote : 2},   
+
+      { name : 'Giuseppe', quote : `meh!!`, vote : 3},  
+      
+      { name : 'Antonio', quote : `Potresti fare meglio`, vote : 3},
+
+      { name : 'Franco', quote : `tutto ok`, vote : 4},
+
+      { name : 'Alberto', quote : `Il miglior sito del mondo`, vote : 5},
+
+      { name : 'Marco', quote : `RIDICOLI`, vote : 1},
+
+
+      ]
+
+      let swiperWrapper = document.querySelector('.swiper-wrapper');
+
+      advices.forEach((recensione)=>{
+
+        let div = document.createElement('div');
+
+        div.classList.add('swiper-slide',  'd-flex', 'justify-content-center', 'align-items-center' , 'text-center');
+
+        div.innerHTML = `
+        
+        <div class="cardCustom">
+
+          <p class="h3">${recensione.name}</p>
+
+          <p class="fst-italic">${recensione.quote}</p>
+
+          <div class = "d-flex mt-2>
+
+            ${createStars(recensione.vote)}
+
+          </div> 
+
+        </div>
+
+        `
+        swiperWrapper.appendChild(div);
+      });
+
+      function createStars(fullStars){
+
+        let final = '';
+
+        for(let i = 1; i <= 5; i++){
+
+          if(fullStars > 0){
+
+            final += `<i class="fa-solid fa-star mt-1"></i>`;
+
+            fullStars--;
+
+          }else{
+            
+            final += `<i class="fa-regular fa-star mt-1"></i>`;
+          }
+        }
+
+        return final
+      };
+
+      const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // AUTOPLAY
+        autoplay: {
+          delay: 1000,
+          disableOnInteraction: false,
+        },
+
+        // EFFECTS
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "1",
+        coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+      },
+
+        // BREAKPOINTS
+
+          breakpoints: {
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        },
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+
+  </script>
+
+    <!-- JS CUSTOM -->
+    <script src="./main.js"></script>
+    
+</body>
+</html>
+
